@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Сайт кофейни</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Кофейня «Кофемания»</h1>
+  <p id="hours">Готовим кофе каждый день.</p>
+<button type="button" id="show-hours">Показать часы работы</button>
+  <h2>«Меню»</h2>
+  <ul>
+  <li>Кофе — 80 ₽</li>
+  <li>Мокачино — 100 ₽</li>
+  <li>Латте — 100 ₽</li>
+  </ul>
+<h2>Заявка на столик</h2>
+<form id="booking">
+  <label for="guest-name">Имя</label>
+  <input id="guest-name" name="guest-name" required>
+  <button type="submit">Проверить заявку</button>
+</form>
+<p id="booking-result" role="status"></p>
+</body>
+</html>
